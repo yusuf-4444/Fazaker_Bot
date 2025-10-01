@@ -7,8 +7,8 @@ import random
 from telegram import Bot
 from telegram.ext import Application
 
-BOT_TOKEN = os.environ.get('BOT_TOKEN', "8492798785:AAE3U_XrO3nz9HgEFh0RQk8gz2oIuINm8es")
-CHANNEL_USERNAME = os.environ.get('CHANNEL_USERNAME', "@FazakerInNafaatAlZekra")
+BOT_TOKEN = "8492798785:AAE3U_XrO3nz9HgEFh0RQk8gz2oIuINm8es"
+CHANNEL_USERNAME = "@FazakerInNafaatAlZekra"
 
 # الباقيات الصالحات - مجموعة من الأذكار والأدعية
 baqiyat_salihat = [
